@@ -1,0 +1,9 @@
+# Build artifacts
+*.o
+ppmtrans
+a2test
+timing_test
+u2btest
+
+# OS/editor
+.DS_Store
