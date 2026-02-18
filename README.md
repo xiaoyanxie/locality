@@ -2,6 +2,7 @@
 
 [![Language C](https://img.shields.io/badge/language-C-00599C?logo=c&logoColor=white)](#)
 [![Course COMP40](https://img.shields.io/badge/course-COMP40-1f6feb)](#)
+[![License MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 [![Project Type](https://img.shields.io/badge/type-cache%20locality-ff69b4)](#)
 [![History](https://img.shields.io/badge/history-clean-2ea44f)](#)
 
@@ -52,3 +53,6 @@ This repository was split from a shared course repo to keep a clean, project-foc
 
 ## 📚 Detailed Report
 - `docs/performance-analysis.md`
+
+## 📄 License
+MIT License. See `LICENSE`.
