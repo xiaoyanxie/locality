@@ -4,9 +4,8 @@
 [![Course COMP40](https://img.shields.io/badge/course-COMP40-1f6feb)](#)
 [![Usage](https://img.shields.io/badge/usage-reference%20only-orange)](#)
 [![Project Type](https://img.shields.io/badge/type-cache%20locality-ff69b4)](#)
-[![History](https://img.shields.io/badge/history-clean-2ea44f)](#)
 
-A standalone, clean-history repository for COMP 40 HW3 (Locality), focused on cache-friendly image transformations.
+COMP 40 HW3 implementation focused on cache-friendly image transformations.
 
 ## ⚠️ Academic Integrity Notice
 This repository is for portfolio and learning reference only.
@@ -24,8 +23,7 @@ Do not copy, submit, or adapt this code for coursework or academic evaluation.
 - `uarray2.c`, `uarray2b.c`: 2D array implementations
 - `cputiming.c`, `cputiming.h`, `cputiming_impl.h`: Timing utilities
 - `a2test.c`, `timing_test.c`: Test binaries
-- `docs/performance-analysis.md`: Original detailed design + experiment report
-- `docs/legacy-readme.md`: Legacy migration copy
+- `docs/performance-analysis.md`: Detailed design and experiment report
 
 ## 🛠️ Build
 ```bash
@@ -51,9 +49,6 @@ Source: `docs/performance-analysis.md`
 Key observations:
 - Small input: row-major traversal is fastest
 - Large input: locality-aware strategies significantly reduce per-pixel time
-
-## 📝 Migration Note
-This repository was split from a shared course repo to keep a clean, project-focused commit history.
 
 ## 📚 Detailed Report
 - `docs/performance-analysis.md`
